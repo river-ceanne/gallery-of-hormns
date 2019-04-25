@@ -17,6 +17,5 @@ $.get( './data/page-1.json', function(data) {
   $('.sort-select').on('change',handleSort);
 
 });
-
 console.log(imgArr);
 console.log('end of loading images');

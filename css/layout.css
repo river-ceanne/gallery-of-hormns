@@ -1,0 +1,69 @@
+
+img{
+  height: 200px;
+  width: auto;
+  margin: 2%;
+  float: left;
+}
+
+select{
+  float: right;
+  width: 15%;
+  margin-right: 2.5%;
+}
+
+footer{
+  text-align: center;
+  background-color: rgb(218, 64, 218);
+  margin-top: 200px;
+  height: 100px;
+  line-height: 100px;
+}
+
+fieldset {
+  display: block;
+  float: right;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.filter-section{
+  display: flex;
+  justify-content: space-evenly;
+}
+cite {
+  float: left;
+  text-align: center;
+  width: 250px;
+}
+
+select {
+  width: 150px;
+  font-size: 20px;
+}
+
+fieldset label {
+  text-align: center;
+  padding-bottom: 40px;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  text-decoration-style: none;
+  font-size: 40px;
+  
+}
+#photo-template div{
+  margin-top: 5%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#photo-template{
+  max-width: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-right: auto;
+  margin-left: auto;
+}
